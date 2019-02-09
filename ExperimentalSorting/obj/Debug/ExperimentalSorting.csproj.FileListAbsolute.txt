@@ -1,0 +1,10 @@
+C:\Users\nicol\source\repos\ExperimentalSorting\ExperimentalSorting\bin\Debug\ExperimentalSorting.exe.config
+C:\Users\nicol\source\repos\ExperimentalSorting\ExperimentalSorting\bin\Debug\ExperimentalSorting.exe
+C:\Users\nicol\source\repos\ExperimentalSorting\ExperimentalSorting\bin\Debug\ExperimentalSorting.pdb
+C:\Users\nicol\source\repos\ExperimentalSorting\ExperimentalSorting\obj\Debug\ExperimentalSorting.csprojAssemblyReference.cache
+C:\Users\nicol\source\repos\ExperimentalSorting\ExperimentalSorting\obj\Debug\ExperimentalSorting.App.resources
+C:\Users\nicol\source\repos\ExperimentalSorting\ExperimentalSorting\obj\Debug\ExperimentalSorting.Properties.Resources.resources
+C:\Users\nicol\source\repos\ExperimentalSorting\ExperimentalSorting\obj\Debug\ExperimentalSorting.csproj.GenerateResource.cache
+C:\Users\nicol\source\repos\ExperimentalSorting\ExperimentalSorting\obj\Debug\ExperimentalSorting.csproj.CoreCompileInputs.cache
+C:\Users\nicol\source\repos\ExperimentalSorting\ExperimentalSorting\obj\Debug\ExperimentalSorting.exe
+C:\Users\nicol\source\repos\ExperimentalSorting\ExperimentalSorting\obj\Debug\ExperimentalSorting.pdb

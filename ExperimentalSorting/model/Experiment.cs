@@ -8,5 +8,37 @@ namespace ExperimentalSorting.Model
 {
     class Experiment
     {
+
+
+
+        public void generateBigArrayRandomOrder() {
+
+        }
+
+        public void generateSmallArrayRandomOrder()
+        {
+
+        }
+
+        public void generateBigArrayAscendenntOrder()
+        {
+
+        }
+
+        public void generateSmallArrayAscendentOrder()
+        {
+
+        }
+
+        public void generateBigArrayDescendentOrder()
+        {
+
+        }
+
+        public void generateSmallArrayDescendentOrder()
+        {
+
+        }
+
     }
 }

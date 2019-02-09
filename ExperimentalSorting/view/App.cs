@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ExperimentalSorting.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,13 @@ namespace ExperimentalSorting
         public App()
         {
             InitializeComponent();
+
+        }
+
+        private void btnGenerate_Click(object sender, EventArgs e)
+        {
+           
+
         }
     }
 }
