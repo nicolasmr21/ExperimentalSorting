@@ -54,7 +54,7 @@
             this.comboAlgorithm.DisplayMember = "aa";
             this.comboAlgorithm.FormattingEnabled = true;
             this.comboAlgorithm.Items.AddRange(new object[] {
-            "Bucket Sort",
+            "Radix Sort",
             "Counting Sort"});
             this.comboAlgorithm.Location = new System.Drawing.Point(81, 178);
             this.comboAlgorithm.Name = "comboAlgorithm";
