@@ -8,3 +8,13 @@ C:\Users\nicol\source\repos\ExperimentalSorting\ExperimentalSorting\obj\Debug\Ex
 C:\Users\nicol\source\repos\ExperimentalSorting\ExperimentalSorting\obj\Debug\ExperimentalSorting.csproj.CoreCompileInputs.cache
 C:\Users\nicol\source\repos\ExperimentalSorting\ExperimentalSorting\obj\Debug\ExperimentalSorting.exe
 C:\Users\nicol\source\repos\ExperimentalSorting\ExperimentalSorting\obj\Debug\ExperimentalSorting.pdb
+C:\Users\crisf\Desktop\Projects\ExperimentalSorting\ExperimentalSorting\bin\Debug\ExperimentalSorting.exe.config
+C:\Users\crisf\Desktop\Projects\ExperimentalSorting\ExperimentalSorting\bin\Debug\ExperimentalSorting.exe
+C:\Users\crisf\Desktop\Projects\ExperimentalSorting\ExperimentalSorting\bin\Debug\ExperimentalSorting.pdb
+C:\Users\crisf\Desktop\Projects\ExperimentalSorting\ExperimentalSorting\obj\Debug\ExperimentalSorting.csprojAssemblyReference.cache
+C:\Users\crisf\Desktop\Projects\ExperimentalSorting\ExperimentalSorting\obj\Debug\ExperimentalSorting.App.resources
+C:\Users\crisf\Desktop\Projects\ExperimentalSorting\ExperimentalSorting\obj\Debug\ExperimentalSorting.Properties.Resources.resources
+C:\Users\crisf\Desktop\Projects\ExperimentalSorting\ExperimentalSorting\obj\Debug\ExperimentalSorting.csproj.GenerateResource.cache
+C:\Users\crisf\Desktop\Projects\ExperimentalSorting\ExperimentalSorting\obj\Debug\ExperimentalSorting.csproj.CoreCompileInputs.cache
+C:\Users\crisf\Desktop\Projects\ExperimentalSorting\ExperimentalSorting\obj\Debug\ExperimentalSorting.exe
+C:\Users\crisf\Desktop\Projects\ExperimentalSorting\ExperimentalSorting\obj\Debug\ExperimentalSorting.pdb

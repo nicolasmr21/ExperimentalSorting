@@ -61,6 +61,7 @@
             this.comboAlgorithm.Size = new System.Drawing.Size(121, 21);
             this.comboAlgorithm.TabIndex = 1;
             this.comboAlgorithm.Tag = "";
+            this.comboAlgorithm.SelectedIndexChanged += new System.EventHandler(this.comboAlgorithm_SelectedIndexChanged);
             // 
             // comboSize
             // 

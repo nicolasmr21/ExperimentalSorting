@@ -7,37 +7,65 @@ using System.Threading.Tasks;
 namespace ExperimentalSorting.Model
 {
     class Experiment
-    {
-
-
-
-        public void generateBigArrayRandomOrder() {
-
+    { 
+        public int[] generate(int a, int b)
+        {
+            int[] ar = null;
+            if (a == 1 && b == 1)
+            {
+                ar = generateBigArrayAscendenntOrder();
+            }
+            else if (a == 1 && b == 0)
+            {
+                ar = generateSmallArrayAscendentOrder();
+            }
+            else if (a == 2 && b == 1)
+            {
+                ar = generateBigArrayDescendentOrder();
+            }
+            else if(a == 2 && b== 0)
+            {
+                ar = generateSmallArrayDescendentOrder();
+            }
+            else if(a == 0 && b == 1)
+            {
+                ar = generateBigArrayRandomOrder();
+            }
+            else if(a == 0 && b == 0)
+            {
+                ar = generateSmallArrayRandomOrder();
+            }
+            return ar;
+        }
+        public int[] generateBigArrayRandomOrder() {
+            Random r = new Random();
+            return Enumerable.Repeat(0, 10000000).Select(x => r.Next(1, 100000000)).ToArray();
         }
 
-        public void generateSmallArrayRandomOrder()
+        public int[] generateSmallArrayRandomOrder()
         {
-
+            Random r = new Random();
+            return Enumerable.Repeat(0, 100000).Select(x => r.Next(1, 1000000)).ToArray();
         }
 
-        public void generateBigArrayAscendenntOrder()
+        public int[] generateBigArrayAscendenntOrder()
         {
-
+            return Enumerable.Range(1, 10000000).ToArray();
         }
 
-        public void generateSmallArrayAscendentOrder()
+        public int[] generateSmallArrayAscendentOrder()
         {
-
+            return Enumerable.Range(1, 100000).ToArray();
         }
 
-        public void generateBigArrayDescendentOrder()
+        public int[] generateBigArrayDescendentOrder()
         {
-
+            return Enumerable.Range(1, 10000000).Reverse().ToArray();
         }
 
-        public void generateSmallArrayDescendentOrder()
+        public int[] generateSmallArrayDescendentOrder()
         {
-
+            return Enumerable.Range(1, 100000).Reverse().ToArray();
         }
 
     }

@@ -17,6 +17,33 @@ namespace ExperimentalSorting.Model
             this.isCounting = isCounting;
         }
 
+        public void orderArray()
+        {
+            for (int i = 0; i < 12; i++)
+            {
+                if (isCounting)
+                {
+                    TimeSpan stop;
+                    TimeSpan start = new TimeSpan(DateTime.Now.Ticks);
+
+                    countingsort(arr);
+
+                    stop = new TimeSpan(DateTime.Now.Ticks);
+                    Console.WriteLine(stop.Subtract(start).TotalSeconds);
+                }
+                else
+                {
+                    TimeSpan stop;
+                    TimeSpan start = new TimeSpan(DateTime.Now.Ticks);
+
+                    radixsort(arr);
+
+                    stop = new TimeSpan(DateTime.Now.Ticks);
+                    Console.WriteLine(stop.Subtract(start).TotalSeconds);
+                }
+            }
+        }
+
             /**
 	     * This method is responsible for finding the largest number of the array
 	     * @param arr[] of type array.
@@ -60,7 +87,6 @@ namespace ExperimentalSorting.Model
                 else if (array[i] > max)
                 {
                     max = array[i];
-                    Console.Write(array[i]);
 
                 }
             }

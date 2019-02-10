@@ -13,6 +13,7 @@ namespace ExperimentalSorting
 {
     public partial class App : Form
     {
+
         public App()
         {
             InitializeComponent();
@@ -21,7 +22,13 @@ namespace ExperimentalSorting
 
         private void btnGenerate_Click(object sender, EventArgs e)
         {
-           
+            Treatment t = new Treatment(new Experiment().generate(comboState.SelectedIndex, comboSize.SelectedIndex), comboAlgorithm.SelectedItem.Equals("Counting Sort"));
+            t.orderArray();
+            Console.WriteLine("------------");
+        }
+
+        private void comboAlgorithm_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
         }
     }
