@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExperimentalSorting.Model
 {
-    class Experiment
+    public class Experiment
     { 
         public int[] generate(int a, int b)
         {

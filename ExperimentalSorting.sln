@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExperimentalSorting", "ExperimentalSorting\ExperimentalSorting.csproj", "{9696D49F-6C50-44C0-89BE-0BF5A08602EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "UnitTestProject1\Test.csproj", "{97C09FF5-E354-412D-8475-64ABFD8C3901}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9696D49F-6C50-44C0-89BE-0BF5A08602EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9696D49F-6C50-44C0-89BE-0BF5A08602EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9696D49F-6C50-44C0-89BE-0BF5A08602EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97C09FF5-E354-412D-8475-64ABFD8C3901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C09FF5-E354-412D-8475-64ABFD8C3901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97C09FF5-E354-412D-8475-64ABFD8C3901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97C09FF5-E354-412D-8475-64ABFD8C3901}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

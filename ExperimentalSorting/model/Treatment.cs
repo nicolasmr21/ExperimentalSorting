@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExperimentalSorting.Model
 {
-    class Treatment
+    public class Treatment
     {
         public int[] arr { get; set; }
         public Boolean isCounting{ get; set; }
