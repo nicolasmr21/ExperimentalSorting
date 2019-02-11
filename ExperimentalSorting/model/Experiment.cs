@@ -39,33 +39,37 @@ namespace ExperimentalSorting.Model
         }
         public int[] generateBigArrayRandomOrder() {
             Random r = new Random();
-            return Enumerable.Repeat(0, 1000000).Select(x => r.Next(1, 1000000)).ToArray();
+            return Enumerable.Repeat(0, 10000000).Select(x => r.Next(1, 100000000)).ToArray();
+
         }
 
         public int[] generateSmallArrayRandomOrder()
         {
             Random r = new Random();
-            return Enumerable.Repeat(0, 1000).Select(x => r.Next(1, 1000000)).ToArray();
+            return Enumerable.Repeat(0, 100000).Select(x => r.Next(1, 1000000)).ToArray();
         }
 
         public int[] generateBigArrayAscendenntOrder()
         {
-            return Enumerable.Range(1, 1000000).ToArray();
+            return Enumerable.Range(1, 10000000).ToArray();
         }
 
         public int[] generateSmallArrayAscendentOrder()
         {
-            return Enumerable.Range(1, 1000).ToArray();
+            return Enumerable.Range(1, 100000).ToArray();
+
         }
 
         public int[] generateBigArrayDescendentOrder()
         {
-            return Enumerable.Range(1, 1000000).Reverse().ToArray();
+            return Enumerable.Range(1, 10000000).Reverse().ToArray();
+
         }
 
         public int[] generateSmallArrayDescendentOrder()
         {
-            return Enumerable.Range(1, 1000).Reverse().ToArray();
+            return Enumerable.Range(1, 100000).Reverse().ToArray();
+
         }
 
     }
